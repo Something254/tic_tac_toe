@@ -1,4 +1,4 @@
-body{
+/* body{
     padding: 0px;
     margin: 0px;
     font-family: sans-serif;
@@ -11,7 +11,7 @@ body{
     flex-direction: column;
     min-width: 100vw;
     min-height: 100vh;
-    background-color: pink;
+    background-color: black;
     background-position: left;
     background-repeat: no-repeat;
     background-size: cover;
@@ -55,4 +55,70 @@ body{
     min-width: 300px;
     border: 0px;
     border-radius: 5px;
+} */
+
+
+
+
+
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#container {
+    display: flex;
+    padding-top: 20px;
+    align-items: center;
+    flex-direction: column;
+    min-width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#title {
+    font-size: 45px;
+    background-color: #1d1d1d;
+    color: #eee888;
+    min-width: 80vw;
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+#display {
+    min-width: 300px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    height: 100px;
+    width: 100px;
+    margin: 1px;
+    border: 0px;
+    font-size: 50px;
+    font-size: bolder;
+    background-color: #eee888;
+}
+
+#controlBtn {
+    margin: 30px 10px 10px 10px;
+    padding: 13px;
+    min-width: 300px;
+    border: 0;
+    border-radius: 15px;
 }
