@@ -47,3 +47,9 @@ function checkDraw() {
     }
     display.textContent = 'Draw';
 }
+
+let numbers=[1, 4, 5, 6 ,7, ];
+console.log(numbers.includes(2))
+
+const string = "Player 1 has won";
+string.includes("won")
