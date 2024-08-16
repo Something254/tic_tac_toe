@@ -31,5 +31,5 @@ button.addEventListener('click', () => {
 
 let controlBtn = document.getElementById('controlBtn');
 controlBtn.addEventListener('click', () => {
-    window.location.href = 'tic.html'
+    window.location.href = 'index.html'
 })
